@@ -4,10 +4,6 @@ import pandas as pd
 
 
 class Weather:
-    """
-    A weather client for fetching and analyzing weather data.
-    """
-    
     def __init__(self, api_key=os.getenv("weather_api_key")):
         """Initialize Weather client with API key."""
         self.api_key = api_key
